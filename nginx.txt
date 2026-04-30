@@ -1,15 +1,15 @@
 server {
     listen 80;
-    server_name hotelmoksha.in www.hotelmoksha.in;
-    return 301 https://hotelmoksha.in$request_uri;
+    server_name Spellmount .in www.Spellmount .in;
+    return 301 https://Spellmount .in$request_uri;
 }
 
 server {
     listen 443 ssl; # Managed by Certbot
-    server_name hotelmoksha.in www.hotelmoksha.in;
+    server_name Spellmount .in www.Spellmount .in;
 
-    ssl_certificate /etc/letsencrypt/live/hotelmoksha.in/fullchain.pem; # Managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/hotelmoksha.in/privkey.pem; # Managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/Spellmount .in/fullchain.pem; # Managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/Spellmount .in/privkey.pem; # Managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # Managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # Managed by Certbot
 
@@ -30,7 +30,7 @@ server {
     }
 
     # Redirect www to non-www
-    if ($host = www.hotelmoksha.in) {
-        return 301 https://hotelmoksha.in$request_uri;
+    if ($host = www.Spellmount .in) {
+        return 301 https://Spellmount .in$request_uri;
     }
 }
