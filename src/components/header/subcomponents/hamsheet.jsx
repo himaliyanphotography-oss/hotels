@@ -153,7 +153,7 @@ export default function HamSheet() {
                   <PopUpBtn text={"Explore"}>
                     <div className="flex flex-col gap-2 text-white w-full px-2 py-3 bg-black/40 backdrop-blur-md rounded-lg mt-1 border border-white/10">
                       {[
-                        "Kausani",
+                        
                         "activities",
                         "visit",
                         "events",
@@ -257,7 +257,7 @@ export default function HamSheet() {
                 </Link>
                 <Link
                   onClick={handleLinkClick}
-                  href="https://booking.hotelmoksha.in/"
+                  href="https://.in/"
                   // href="/book"
                   target="_blank"
                   rel="noopener noreferrer"
